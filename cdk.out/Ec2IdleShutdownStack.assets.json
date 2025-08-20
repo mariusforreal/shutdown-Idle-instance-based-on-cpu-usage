@@ -1,0 +1,34 @@
+{
+  "version": "48.0.0",
+  "files": {
+    "8046b369e1a092351c91fc43cb6bf5449e1153d175f084a17c1a179ed3bf4ab9": {
+      "displayName": "Ec2IdleShutdownLambda/Code",
+      "source": {
+        "path": "asset.8046b369e1a092351c91fc43cb6bf5449e1153d175f084a17c1a179ed3bf4ab9",
+        "packaging": "zip"
+      },
+      "destinations": {
+        "current_account-current_region-0becca5c": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "8046b369e1a092351c91fc43cb6bf5449e1153d175f084a17c1a179ed3bf4ab9.zip",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    },
+    "4d6e41d5a29f08b690ffa814655cea6250086b292d005de37129657ec0841087": {
+      "displayName": "Ec2IdleShutdownStack Template",
+      "source": {
+        "path": "Ec2IdleShutdownStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region-c0ab9ba2": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "4d6e41d5a29f08b690ffa814655cea6250086b292d005de37129657ec0841087.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
